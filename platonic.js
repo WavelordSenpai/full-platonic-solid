@@ -1,4 +1,7 @@
+// platonic.js
 import * as THREE from "https://unpkg.com/three@0.152.2/build/three.module.js";
+
+console.log("✅ platonic.js loaded successfully");
 
 export const solids = {
   Tetrahedron: new THREE.TetrahedronGeometry(1),
